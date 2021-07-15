@@ -8,7 +8,7 @@ class Ui_MainWindow(QtWidgets.QMainWindow):
         super(Ui_MainWindow, self).__init__()
         self.navhov = False
         self.setMouseTracking(True)
-        self.gS_l = ["Started", "Won", "Draw"]
+        self.gS_l = ["Started", "Won", "Drawn"]
         self.c_gS = self.gS_l[0]
         self.omp = None
 
